@@ -3,6 +3,7 @@ name: Build and push Docker image to Azure Container Registry
 
 # Trigger on push to the main branch
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
